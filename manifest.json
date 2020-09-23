@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Perform Dictionary Lookup in new Tab",
+    "version": "1.0",
+
+    "description": "Present a right-click context menu option to perform a dictionary search for a word on https://onelook.com/ in a new Tab.",
+
+    "background": {
+        "scripts": ["background-script.js"]
+    },
+
+    "permissions": ["contextMenus"]
+}
